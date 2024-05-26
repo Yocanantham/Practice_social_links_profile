@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     height: 100vh;
     background-color: hsl(0, 0%, 8%);
@@ -35,7 +36,7 @@ ul {
     list-style-type: none;
 }
 li {
-    margin: 1rem 0rem 0rem 0rem;
+    margin: 0.5rem 0rem 0rem 0rem;
     background-color: hsl(0, 0%, 20%);
     color: white;
     font-weight: 600;
@@ -47,7 +48,7 @@ li:hover,li:focus{
     color: black;
 }
 
-a {
+li a {
     color: inherit;
     text-decoration: none;
     display: block;
@@ -60,3 +61,30 @@ a {
 .green {
     color: hsl(75, 94%, 57%);
 }
+
+.attribution {
+    /* display: flex;
+    align-items: flex-end;
+    justify-content: center; */
+    position: fixed;
+    width: 100vw;
+    padding: 0.15rem;
+    bottom: 0px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    text-align: center;
+}
+
+.attribution a{
+    color: white;
+    text-decoration: none;
+}
+
+.attribution a:hover,.attribution a:hover {
+    background-color: skyblue;
+    color: black;
+    padding: 3.5px;
+    border-radius: 1px;
+}
+
+
